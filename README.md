@@ -1,5 +1,5 @@
 # Lab 8 - Starter  
-1) 1. Within a Github action that runs whenever code is pushed, we want to check the code not only on the local environment, each computer may have different Configurion may havr different result, we want to test the code on the same environment.  
+1) 1.Within a Github action that runs whenever code is pushed, we want to check the code not only on the local environment, each computer may have different Configurion may havr different result, we want to test the code on the same environment.  
 2) NO  
 3) we should not use unit test for the "message" feature, because for this feature we want to test the message the user type get sent to the other user which involve user behave, also this fueature involve alot of moving parts from the application, for example the received feature and send feature.
 4) we would use unit test for “max message length” feature of a messaging application, beacuse this when we test this feature we did not invole with other feature. we only need to care about the max length, and we do not need to test the message  send or not.
